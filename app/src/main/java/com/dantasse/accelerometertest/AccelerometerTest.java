@@ -31,7 +31,7 @@ public class AccelerometerTest extends Activity implements OnClickListener {
         setContentView(R.layout.activity_main);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+        accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
                 //.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION);
         
 //        normalListener = new Listener(this);
